@@ -1,7 +1,7 @@
 ---
 
-- hosts: all
-  connection: ssh
+- hosts: localhost
+  connection: local
   gather_facts: true
   become: yes
 
@@ -15,7 +15,7 @@
     cis_umask_default: 027
 
   roles:
-     - { role: cis-amazon-linux,
+     - { role: cis-v1-eks-node-hardening,
                in_vm: true,
                cis_hosts_allowed_ip_range: 'ALL',
                cis_umask_default: "027",
