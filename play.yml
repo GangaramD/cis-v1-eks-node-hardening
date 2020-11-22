@@ -21,6 +21,6 @@
                cis_umask_default: "027",
                full_upgrade: true,
                cis_enable_rsyslog: true,
-               cis_level_1_exclusions: [ 3.5.1.1, 5.3.4 ],
+               cis_level_1_exclusions: [ 3.5.1.1, 5.3.4, 3.5.1.4],
                cis_level_2_exclusions: [ ]
       }
