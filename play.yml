@@ -11,7 +11,6 @@
       - 3.4.2
       - 3.4.3
       - 6.2.13
-      - 5.2.10
     cis_pass_max_days: 45
     cis_umask_default: 027
 
@@ -22,6 +21,6 @@
                cis_umask_default: "027",
                full_upgrade: true,
                cis_enable_rsyslog: true,
-               cis_level_1_exclusions: [ 3.5.1.1, 5.3.4, 5.2.10, 3.5.1.4 ],
-               cis_level_2_exclusions: [ ]
+               cis_level_1_exclusions: [ 3.5.1.1, 5.3.4, 3.5.1.4 ],
+               cis_level_2_exclusions: [ 5.2.10]
       }
