@@ -39,6 +39,13 @@ Also install the following package to allow the ansible SElinux module to functi
 A reboot will be neccessary for the changes to take effect.
 
 
+Create CIS-Compliant Partitions
+-------------------------------
+
+follow from the below url to create cis complaint partitions,
+
+https://techgirlkb.guru/2019/08/how-to-create-cis-compliant-partitions-on-aws/
+
 Example Playbook
 ----------------
 
